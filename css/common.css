@@ -1,0 +1,34 @@
+.flexcontent{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100vh;
+}
+.navbar-brand{
+    padding: 0 !important;
+}
+.navbar{
+    padding: 0 !important;
+}
+#navbarSupportedContent{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    flex-grow: unset;
+}
+.commonHead{
+    justify-content: space-between !important;
+}
+.btn-outline-success {
+    color: #fff !important;
+    border-color: #fff !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    border-top: 0 !important;
+    border-radius: 0 !important;
+}
+.btn{
+    padding-right: 0 !important;
+    padding-left: 30px !important;
+    box-sizing: border-box;
+}

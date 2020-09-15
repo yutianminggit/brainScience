@@ -1,0 +1,462 @@
+.flexcontentindex{
+    background: url(../images/pcbg.svg) no-repeat;
+    background-size: cover;
+}
+.titlenav{
+    background: url(../images/logo.svg) no-repeat;
+    width: 160px;
+    height: 74.5px;
+    background-size: cover;
+}
+.headerpage{
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+}
+.headerpage .navbar{
+    flex: 1 1;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(255, 255, 255, .7) !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #fff !important;
+}
+.btn{
+    width: 80px;
+}
+@media screen and (min-width: 768px) {
+  .flexcontentindex{
+    min-height: 600px;
+  }
+    .contant {
+      margin-top: 5.2rem;
+      padding-left: 12.5rem;
+      }
+    .dataTime{
+        font-family: PingFangSC-Regular;
+        font-size: 2rem;
+        color: rgba(255,255,255,0.00);
+        letter-spacing: 0;
+        color: #fff;
+        margin-bottom: 1rem;
+    }
+    .titleMain{
+        font-family: PingFangSC-Semibold;
+        font-size: 2.3rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        font-weight: bold;
+        line-height: 3.5rem;
+      }
+      .disable{
+        font-family: PingFangSC-Regular;
+        font-size: 1.1rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 1.4rem;
+      }
+      .slideRight{
+        display: flex;
+        width: 17.5rem;
+        height: 8.2rem;
+        position: fixed;
+        right: -16.5rem;
+        transition: all 300ms linear;
+        align-items: center;
+        cursor: pointer;
+      }
+      .slideRight:hover{
+       right: 0;
+      }
+      .green{
+        bottom: 3rem;
+        background-image: linear-gradient(270deg, rgba(14,202,86,0.30) 0%, #0ECA56 100%);
+      }
+      .blue{
+        bottom: 19.4rem;
+        background-image: linear-gradient(270deg, rgba(48,129,246,0.30) 0%, #3081F6 99%);
+      }
+      .yellow{
+        bottom: 11.2rem;
+        background-image: linear-gradient(270deg, rgba(255,184,25,0.29) 0%, #FFB819 100%);
+      }
+      .rightMu{
+        width: 7rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .zhibo{
+        background: url('../images/zhibo.svg') no-repeat;
+        width: 2.28rem;
+        height: 2rem;
+        background-size: cover;
+      }
+      .weibo{
+        background: url('../images/weibo.svg') no-repeat;
+        width: 2.49rem;
+        height: 2rem;
+        background-size: cover;
+      }
+      .weixin{
+        background: url('../images/weixin.svg') no-repeat;
+        width: 2.5rem;
+        height: 2rem;
+        background-size: cover;
+      }
+      .fontsize{
+        font-family: PingFangSC-Regular;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        padding-top: .7rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+      }
+      .erweima{
+        width: 6.5rem;
+        height: 6.5rem;
+        margin-left: 1.8rem;
+        background: #fff;
+      }
+      .footer{
+        font-family: PingFangSC-Light;
+        font-size: 12px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        position: fixed;
+        bottom: 3rem;
+        left: 5rem;
+      }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .flexcontentindex{
+      min-height: 600px;
+    }
+    .contant {
+      margin-top: 5.2rem;
+      padding-left: 12.5rem;
+      }
+    .dataTime{
+        font-family: PingFangSC-Regular;
+        font-size: 2rem;
+        color: rgba(255,255,255,0.00);
+        letter-spacing: 0;
+        color: #fff;
+        margin-bottom: 1rem;
+    }
+    .titleMain{
+      font-family: PingFangSC-Semibold;
+      font-size: 2.5rem;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      font-weight: bold;
+      line-height: 3.5rem;
+    }
+    .disable{
+      font-family: PingFangSC-Regular;
+      font-size: 1.2rem;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 1.6rem;
+    }
+    .slideRight{
+      display: flex;
+      width: 17.5rem;
+      height: 8.2rem;
+      position: fixed;
+      right: -16.5rem;
+      transition: all 300ms linear;
+      align-items: center;
+      cursor: pointer;
+    }
+    .slideRight:hover{
+     right: 0;
+    }
+    .green{
+      bottom: 3rem;
+      background-image: linear-gradient(270deg, rgba(14,202,86,0.30) 0%, #0ECA56 100%);
+    }
+    .blue{
+      bottom: 19.4rem;
+      background-image: linear-gradient(270deg, rgba(48,129,246,0.30) 0%, #3081F6 99%);
+    }
+    .yellow{
+      bottom: 11.2rem;
+      background-image: linear-gradient(270deg, rgba(255,184,25,0.29) 0%, #FFB819 100%);
+    }
+    .rightMu{
+      width: 7rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .zhibo{
+      background: url('../images/zhibo.svg') no-repeat;
+      width: 2.28rem;
+      height: 2rem;
+      background-size: cover;
+    }
+    .weibo{
+      background: url('../images/weibo.svg') no-repeat;
+      width: 2.49rem;
+      height: 2rem;
+      background-size: cover;
+    }
+    .weixin{
+      background: url('../images/weixin.svg') no-repeat;
+      width: 2.5rem;
+      height: 2rem;
+      background-size: cover;
+    }
+    .fontsize{
+      font-family: PingFangSC-Regular;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+      padding-top: .7rem;
+      color: #FFFFFF;
+      letter-spacing: 0;
+    }
+    .erweima{
+      width: 6.5rem;
+      height: 6.5rem;
+      margin-left: 1.8rem;
+      background: #fff;
+    }
+    .footer{
+      font-family: PingFangSC-Light;
+      font-size: 12px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      position: fixed;
+      bottom: 3rem;
+      left: 5rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .flexcontentindex{
+      min-height: 600px;
+    }
+    .contant {
+        margin-top: 5.2rem;
+        padding-left: 12.5rem;
+      }
+      .dataTime{
+        font-family: PingFangSC-Regular;
+        font-size: 2rem;
+        color: rgba(255,255,255,0.00);
+        letter-spacing: 0;
+        color: #fff;
+        margin-bottom: 1rem;
+      }
+      .titleMain{
+        font-family: PingFangSC-Semibold;
+        font-size: 2.5rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        font-weight: bold;
+        line-height: 3.5rem;
+      }
+      .disable{
+        font-family: PingFangSC-Regular;
+        font-size: 1.5rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 2.06rem;
+      }
+      .slideRight{
+        display: flex;
+        width: 17.5rem;
+        height: 8.2rem;
+        position: fixed;
+        right: -16.5rem;
+        transition: all 300ms linear;
+        align-items: center;
+        cursor: pointer;
+      }
+      .slideRight:hover{
+       right: 0;
+      }
+      .green{
+        bottom: 3rem;
+        background-image: linear-gradient(270deg, rgba(14,202,86,0.30) 0%, #0ECA56 100%);
+      }
+      .blue{
+        bottom: 19.4rem;
+        background-image: linear-gradient(270deg, rgba(48,129,246,0.30) 0%, #3081F6 99%);
+      }
+      .yellow{
+        bottom: 11.2rem;
+        background-image: linear-gradient(270deg, rgba(255,184,25,0.29) 0%, #FFB819 100%);
+      }
+      .rightMu{
+        width: 7rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .zhibo{
+        background: url('../images/zhibo.svg') no-repeat;
+        width: 2.28rem;
+        height: 2rem;
+        background-size: cover;
+      }
+      .weibo{
+        background: url('../images/weibo.svg') no-repeat;
+        width: 2.49rem;
+        height: 2rem;
+        background-size: cover;
+      }
+      .weixin{
+        background: url('../images/weixin.svg') no-repeat;
+        width: 2.5rem;
+        height: 2rem;
+        background-size: cover;
+      }
+      .fontsize{
+        font-family: PingFangSC-Regular;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        padding-top: .7rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+      }
+      .erweima{
+        width: 6.5rem;
+        height: 6.5rem;
+        margin-left: 1.8rem;
+        background: #fff;
+      }
+      .footer{
+        font-family: PingFangSC-Light;
+        font-size: 12px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        position: fixed;
+        bottom: 3rem;
+        left: 5rem;
+      }
+  }
+  @media screen and (min-width: 1800px) {
+    .flexcontentindex{
+      min-height: 1000px;
+    }
+    .contant {
+        margin-top: 167px;
+        padding-left: 207px;
+      }
+      .dataTime{
+        font-family: PingFangSC-Regular;
+        font-size: 48px;
+        color: rgba(255,255,255,0.00);
+        letter-spacing: 0;
+        color: #fff;
+        margin-bottom: 48px;
+      }
+      .titleMain{
+        font-family: PingFangSC-Semibold;
+        font-size: 66px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        font-weight: bold;
+        line-height: 92px;
+      }
+      .disable{
+        font-family: PingFangSC-Regular;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 33px;
+      }
+      .slideRight{
+        display: flex;
+        width: 23.75rem;
+        height: 12.5rem;
+        position: fixed;
+        right: -22.75rem;
+        align-items: center;
+        transition: all 300ms linear;
+        cursor: pointer;
+      }
+      .slideRight:hover{
+       right: 0;
+      }
+      .green{
+        bottom: 5rem;
+        background-image: linear-gradient(270deg, rgba(14,202,86,0.30) 0%, #0ECA56 100%);
+      }
+      .blue{
+        bottom: 30rem;
+        background-image: linear-gradient(270deg, rgba(48,129,246,0.30) 0%, #3081F6 99%);
+      }
+      .yellow{
+        bottom: 17.5rem;
+        background-image: linear-gradient(270deg, rgba(255,184,25,0.29) 0%, #FFB819 100%);
+      }
+      .rightMu{
+        width: 7.87rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .zhibo{
+        background: url('../images/weibo.svg') no-repeat;
+        width: 2.62rem;
+        height: 2.3rem;
+        background-size: cover;
+      }
+      .weibo{
+        background: url('../images/weibo.svg') no-repeat;
+        width: 2.81rem;
+        height: 2.26rem;
+        background-size: cover;
+      }
+      .weixin{
+        background: url('../images/weibo.svg') no-repeat;
+        width: 2.68rem;
+        height: 2.19rem;
+        background-size: cover;
+      }
+      .fontsize{
+        font-family: PingFangSC-Regular;
+        font-size: 0.87rem;
+        line-height: 1.25rem;
+        padding-top: .7rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+      }
+      .erweima{
+        width: 7.5rem;
+        height: 7.5rem;
+        margin-left: 2.18rem;
+        background: #fff;
+      }
+      .footer{
+        font-family: PingFangSC-Light;
+        font-size: 12px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        position: fixed;
+        bottom: 5rem;
+        left: 6.25rem;
+      }
+  }
+.box, .discrip, .yuyan, .closeit{
+  display: none;
+}
